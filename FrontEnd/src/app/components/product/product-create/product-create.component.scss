@@ -7,6 +7,11 @@ mat-card {
     button {
         margin-right: 15px;
         margin-top: 20px;
-        color: #41434d;
+
+        :nth-child(3) {
+            background-color: #41434d;
+        }
     }
 }
+
+
